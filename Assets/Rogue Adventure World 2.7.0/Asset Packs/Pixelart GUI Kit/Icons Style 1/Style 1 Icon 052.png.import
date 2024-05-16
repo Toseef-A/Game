@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://du848cgmebd75"
+path="res://.godot/imported/Style 1 Icon 052.png-4ab33ccd580e9741c60f95e9f71a7f9a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Rogue Adventure World 2.7.0/Asset Packs/Pixelart GUI Kit/Icons Style 1/Style 1 Icon 052.png"
+dest_files=["res://.godot/imported/Style 1 Icon 052.png-4ab33ccd580e9741c60f95e9f71a7f9a.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1
