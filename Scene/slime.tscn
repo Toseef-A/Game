@@ -147,7 +147,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Attack",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -170,7 +170,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Death",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -193,7 +193,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Hit",
-"speed": 8.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -216,7 +216,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -239,19 +239,19 @@ animations = [{
 }],
 "loop": true,
 "name": &"Walk",
-"speed": 5.0
+"speed": 6.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f360m"]
-radius = 5.0
-height = 12.0
+radius = 4.0
+height = 10.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7vj5c"]
-radius = 7.0
-height = 16.0
+radius = 6.0
+height = 14.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7sj14"]
-radius = 40.0
+radius = 157.013
 
 [node name="Slime" type="CharacterBody2D"]
 collision_layer = 2
@@ -261,8 +261,8 @@ script = ExtResource("1_eixh7")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -16)
 sprite_frames = SubResource("SpriteFrames_axfgr")
-animation = &"Hit"
-frame_progress = 0.270357
+animation = &"Attack"
+frame_progress = 0.712398
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -5)
